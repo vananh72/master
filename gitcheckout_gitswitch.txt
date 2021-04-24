@@ -1,0 +1,9 @@
+phân biệt sự giống và khác nhau giữa "git checkout" và "git switch"
+Giống nhau: đều được dùng để chuyển nhánh.
+Khác nhau:
+-git checkout:
++git checkout[<option>]<branch>
++sử dụng phổ biến hơn,ngoài ra còn có nhiều công dụng khác như git checkout -b <new_branch>để tạo nhánh mới,git checkout --help để xem công dụng khác của git checkout.
+-git switch: 
++git switch <branch>
++chỉ sử dụng để chuyển nhánh,ít được dùng hơn.
